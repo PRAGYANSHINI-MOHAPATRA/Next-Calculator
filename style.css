@@ -1,0 +1,30 @@
+.absolute-parent{ 
+   width:100vw;
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position: relative;
+   background-color: rgb(35, 36, 36);
+
+}
+.absolute-child{
+   border-radius: 5px;
+   box-shadow: 6px 5px 7px rgb(28, 28, 27);
+   padding: 24px;
+   background:linear-gradient(to bottom right ,rgba(228, 231, 231, 0.196),rgba(30, 68, 68, 0.367)) ;
+   height: 60%;
+   width:70%;
+   position: relative;
+   color: rgb(247, 249, 250);
+}
+.reset{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width:100%;
+   border-radius: 8px;
+   padding: 5px;
+   background:linear-gradient(to bottom right ,rgb(0, 115, 238),rgba(0, 130, 251, 0.827)) ;
+color: aliceblue;
+}
